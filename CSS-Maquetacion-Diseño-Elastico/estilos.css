@@ -1,0 +1,26 @@
+body {
+    width: 60em;
+    margin: 0 auto;     
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.div1{
+    width: 16em;
+}
+
+.div2{
+    width: 44em;
+}
+.texto{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 0.3em;
+}
+.texto li{
+   width: calc(44em/3);
+}

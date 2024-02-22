@@ -1,0 +1,47 @@
+h1, h3{
+    text-align: center;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+form{
+    margin-bottom: 20px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+}
+input{
+    width: 20%;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+.boton button{
+    width: 10%;
+    height: 50px;
+    font-size: large;
+    margin-top: -10px;
+}
+#circulo{
+    width: 1%;
+}
+.label{
+    margin-bottom: 20px;
+}
+#pais{
+    width: 5%;
+}
+#color:hover{
+    background-color: red;
+}
+#color:focus{
+    background-color: yellow;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body class="md:bg-slate-500 md:flex md:justify-center md:pt-52">
+    <div class="flex flex-col md:flex-row">
+        <div class=" md:w-72 bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue rounded-br-3xl rounded-bl-3xl md:rounded-3xl text-center p-10 z-20 ">
+
+            <span class="flex justify-center items-center  mb-9 font-semibold text-gray-300 text-lg">Your Result</span>
+            <div class=" flex flex-col w-40 h-40 mx-auto mb-4 rounded-full  p-10 bg-gradient-to-b from-Violet-blue to-Persian-blue">
+                <spam class="text-white text-6xl font-bold">76</spam>
+                <span class="text-gray-400">of 100</span>
+            </div> 
+        
+            <p class="text-white text-2xl font-semibold mb-3">Great<p/>
+            <p class="text-gray-300 mr-20 ml-20 md:text-sm md:mr-1 md:ml-1">You scored higher than 65% of the people who have taken these tests.</p>
+            
+        </div>
+        <div class="md:w-80 bg-white rounded-br-3xl rounded-tr-3xl relative right-4 pl-3">
+            <p class="font-bold text-lg m-9">Summary</p>
+            
+            <div class="flex flex-col m-7">
+                <div class="flex md:w-42 bg-red-50 mb-4 p-4 md:p-2 rounded-lg">
+                    <img src="./assets/icon-reaction.svg"/>
+                    <p class="text-red-500 font-semibold mr-36 md:mr-20 ml-2">Reaction</p>
+                    <p><b>80</b><span class="text-gray-500"> / 100</span></p>
+                </div>
+                <div class="flex md:w-42 bg-yellow-50 mb-4 p-4 md:p-2 rounded-lg">
+                    <img src="./assets/icon-memory.svg"/>
+                    <p class="text-yellow-500 font-semibold mr-36 md:mr-20 ml-2">Memory</p>
+                    <p><b>92</b><span class="text-gray-500"> / 100</span></p>
+                </div>
+            
+                <div class="flex md:w-42 bg-green-50 mb-4 p-4 md:p-2 rounded-lg">
+                    <img src="./assets/icon-verbal.svg"/>
+                    <p class="text-green-500 font-semibold ml-2 mr-40 md:mr-24 md:ml-2">Verbal</p>
+                    <p><b>61 </b><span class="text-gray-500"> / 100</span></p>
+                </div>
+                
+                <div class="flex md:w-42 bg-blue-50 mb-4 p-4 md:p-2 rounded-lg">
+                    <img src="./assets/icon-visual.svg"/>
+                    <p class="text-blue-900 font-semibold ml-2 mr-40 md:mr-24 md:ml-2">Visual</p>
+                    <p><b>72</b><span class="text-gray-500"> / 100</span></p>
+                </div>
+        
+                <button class="w-42 bg-slate-700 text-white hover:bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue rounded-3xl  p-4 md:p-2 mt-5 ">Continue</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

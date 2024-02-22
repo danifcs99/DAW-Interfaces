@@ -1,0 +1,30 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+     
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.div1{
+    width: 260px;
+}
+
+.div2{
+    width: 700px;
+}
+
+.texto{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 5px;
+}
+.texto li{
+   width: calc(700px/3);
+}

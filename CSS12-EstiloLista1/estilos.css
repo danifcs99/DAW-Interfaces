@@ -1,0 +1,15 @@
+.uno{
+    list-style-type: none;
+}
+.dos{
+    list-style-type: circle;
+}
+.tres{
+    list-style-type: square;
+}
+.cuatro{
+    list-style-type:lower-roman;
+}
+.cinco{
+    list-style-type: lower-greek;
+}

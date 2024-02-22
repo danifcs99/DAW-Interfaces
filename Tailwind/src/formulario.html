@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Formulario con Tailwind</title>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Contenido del Formulario -->
+  <div class="container mx-auto p-8">
+
+    <form  method="post" class=" flex flex-col justify-center max-w-sm mx-auto bg-white p-8 rounded-md">
+
+      <div class="mb-4">
+        <label class="block text-black text-sm font-bold mb-2">Nombre:</label>
+        <input type="text" class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500">
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-black text-sm font-bold mb-2">Correo Electrónico:</label>
+        <input type="email" class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500">
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-black text-sm font-bold mb-2">Contraseña:</label>
+        <input type="password" class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500">
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-black text-sm font-bold mb-2">Edad:</label>
+        <input type="number" class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500">
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-black text-sm font-bold mb-2">País:</label>
+        <select class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500">
+          <option>España</option>
+          <option>Portugal</option>
+          <option>Alemania</option>
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <input type="checkbox" id="suscripcion" name="suscripcion" class="mr-2">
+        <label for="suscripcion" class="text-black text-sm font-bold">Verificación</label>
+      </div>
+
+      <button class=" bg-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue">Enviar</button>
+
+    </form>
+  </div>
+</body>
+</html>

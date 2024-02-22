@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen Cambiante</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+            margin: 50px;
+        }
+        header{
+            text-align: center;
+        }
+        img{
+            width: 50%;
+        }
+
+        @media only screen and (max-width: 900px) {
+            header img {
+                content: url('https://cdn.pixabay.com/photo/2021/09/10/06/47/paddle-tennis-6612340_1280.jpg');
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            header img {
+                content: url('https://www.mundodeportivo.com/files/article_main_microformat/uploads/2023/04/20/64416082859ff.jpeg');
+            }
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            header img {
+                content: url('https://i.ytimg.com/vi/R2pWTe38Alc/maxresdefault.jpg');
+            }
+        }
+    </style>
+</head>
+<body>
+    <Header>
+
+        <h1>Imagenes Cambiantes</h1>
+        <img src="https://cdn.pixabay.com/photo/2021/09/10/06/47/paddle-tennis-6612340_1280.jpg"/>
+
+    </Header>
+    <img src=""/>
+    <img src=""/>
+</body>
+</html>
